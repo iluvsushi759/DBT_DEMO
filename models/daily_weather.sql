@@ -37,3 +37,5 @@ qualify ROW_NUMBER() OVER (PARTITION BY daily_weather ORDER BY count(weather) de
 select
 *
 from daily_weather_agg
+
+-- comment
